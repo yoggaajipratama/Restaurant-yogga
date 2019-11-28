@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+    <TextView
+        android:layout_marginTop="150dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Anda memasuki Dashboard Aplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Logout"/>
+</LinearLayout>
